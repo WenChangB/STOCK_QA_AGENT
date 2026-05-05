@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ### step2: Configuration
 Please follow these steps to configure your API Key:
 
-1. Copy `.env.example` and rename it to `.env.`
+1. Copy `.env.example` and rename it to `.env`
 2. Open `.env` and enter your OPENAI_API_KEY and preferred MODEL_NAME (default is gpt-4o-mini).
 
 ### step3: Execution
