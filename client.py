@@ -21,15 +21,6 @@ class TWSEClient:
                 "收盤價": target.get('ClosingPrice'),
                 "月平均價": target.get('MonthlyAveragePrice')
             }
-
-        # if isinstance(data, dict) and data.get('data'):
-        #     latest = data['data'][-1]
-        #     return {
-        #         "股票代碼": latest.get('Code'),
-        #         "股票名稱": latest.get('Name'),
-        #         "收盤價": latest.get('ClosingPrice'),
-        #         "月平均價": latest.get('MonthlyAveragePrice')
-        #     }
         
         raise ValueError(f"No daily data found for stock ID {stock_id}")
 
