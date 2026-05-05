@@ -4,6 +4,10 @@
 This project is an advanced intelligent assistant developed for the automated analysis of Taiwan stock market data. The system orchestrates OpenAI GPT-4o-mini via the LangChain framework, integrating directly with the Taiwan Stock Exchange (TWSE) OpenAPI. By implementing an Agentic Workflow, the system achieves autonomous task decomposition, real-time data retrieval, and financial reasoning.
 
 ---
+## Demo
+https://github.com/user-attachments/assets/0428bc90-d256-4c65-bc2b-f0f04eb52cab
+
+---
 
 ## Key Features
 - Autonomous Agentic Reasoning: Leverages LangChain and the ReAct framework to analyze user intent, enabling the agent to perform autonomous logical deduction and decision-making.
@@ -49,6 +53,7 @@ Please follow these steps to configure your API Key:
 ```bash
 streamlit run app.py
 ```
+
 ## File Structure
 ```
 ├── app.py              # Entry point (Streamlit UI)
