@@ -35,10 +35,6 @@ def compare_stocks_performance(stock_ids: list[str]):
         try:
             data = twse.get_stock_daily_detail(sid)
             results.append(f"{sid}: {data}")
-            # if isinstance(data, dict):
-            #     results.append(f"{sid}: {data}")
-            # else:
-            #     results.append(f"{sid}: 查詢失敗 (非預期格式)")
         except Exception:
             results.append(f"{sid}: 查詢失敗 (API 錯誤)")
     return "\n".join(results)
